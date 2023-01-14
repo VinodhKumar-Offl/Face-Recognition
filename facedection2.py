@@ -23,7 +23,7 @@ for i in range(len(data)):
     user_face_encoding.append(encoding)
 
     known_face_names.append(data[i][0])
-    for e in user_face_encoding:
+    for e in user_face_encoding:   
         known_face_encodings.append(e)
 
     while True:
